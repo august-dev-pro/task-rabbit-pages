@@ -23,6 +23,11 @@ button {
   list-style: none;
 }
 
+h2,
+h3 {
+  color: green;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -34,15 +39,1022 @@ button {
   text-decoration: none;
 }
 
-.container {
-  padding: 0 100px;
-}
-
+/* .container {
+    padding: 10px ;
+} */
 .section {
   margin-bottom: 50px;
 }
 
 body {
   font-size: 17px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}/*# sourceMappingURL=main.css.map */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* title css */
+.title {
+  padding: 0 0 20px 0;
+}
+
+.title .container .top {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: green;
+}
+
+.title .container .top .topname {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* connexion css */
+.connexion {
+  padding: 15px;
+}
+
+.connexion .container .connexion-iner .displaynone {
+  display: none;
+}
+
+.connexion .container .connexion-iner .left h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: -30px;
+}
+
+.connexion .container .connexion-iner .left p {
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #616161d8;
+  font-weight: 600;
+}
+
+.connexion .container .connexion-iner .left p span {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.connexion .container .connexion-iner .left p i {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  padding: 2px 0 0 0;
+}
+
+.connexion .container .connexion-iner .left p .fa-solid {
+  font-size: 8px;
+}
+
+.connexion .container .connexion-iner .left form .bolck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 0 0 20px 0;
+}
+
+.connexion .container .connexion-iner .left form .bolck label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.connexion .container .connexion-iner .left form .bolck select {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.connexion .container .connexion-iner .left form .envoie {
+  text-align: center;
+}
+
+.connexion .container .connexion-iner .left form .envoie input {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 8px 50px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.connexion .container .connexion-iner .left form .envoie input:hover {
+  background-color: #31c031;
+}
+
+.connexion .container .connexion-iner .left form .connecter p {
+  text-align: center;
+  margin: 10px;
+}
+
+.connexion .container .connexion-iner .left form .connecter p a {
+  color: green;
+  font-weight: 600;
+}
+
+/* barre css */
+.barre .container .barre-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.barre .container .barre-inner .horizontal {
+  width: 100px;
+  height: 2px;
+  background-color: green;
+}
+
+.barre .container .barre-inner .cercle {
+  background-color: green;
+  width: 6px;
+  height: 6px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+/* espertist css */
+.espertist {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.espertist .container .espertist-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.espertist .container .espertist-inner h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.espertist .container .espertist-inner .text {
+  text-align: justify;
+}
+
+/* explain css */
+.explain {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.explain .container .explain-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.explain .container .explain-inner .explain-card {
+  margin: 20px 0;
+}
+
+.explain .container .explain-inner .explain-card .icon {
+  text-align: center;
+  margin: 10px;
+}
+
+.explain .container .explain-inner .explain-card .title {
+  text-align: center;
+}
+
+.explain .container .explain-inner .explain-card .text {
+  text-align: justify;
+}
+
+.explain .container .explain-inner .explain-card:hover .icon {
+  color: green;
+}
+
+/* persentation css */
+.persentation {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.persentation .container .persentation-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.persentation .container .persentation-inner .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+}
+
+.persentation .container .persentation-inner .left p {
+  text-align: justify;
+}
+
+.persentation .container .persentation-inner .right img {
+  height: 300px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 60px 0 60px 0;
+}
+
+/* gettinStarted */
+.getting {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.getting .container .getting-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.getting .container .getting-inner .getting-card {
+  margin: 10px;
+  text-align: center;
+}
+
+.getting .container .getting-inner .getting-card .icon {
+  margin: 10px 0 20px 0;
+}
+
+.getting .container .getting-inner .getting-card .text {
+  margin-top: -15px;
+}
+
+.getting .container .getting-inner .getting-card:hover .icon {
+  color: green;
+}
+
+/* persentation-2 */
+.persentation-2 {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.persentation-2 .container .persentation-2-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.persentation-2 .container .persentation-2-inner .left img {
+  height: 300px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 60px 0 60px 0;
+}
+
+.persentation-2 .container .persentation-2-inner .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.persentation-2 .container .persentation-2-inner .right h2 {
+  margin: 10px;
+}
+
+.persentation-2 .container .persentation-2-inner .right .text {
+  text-align: justify;
+}
+
+.persentation-2 .container .persentation-2-inner .right .adress {
+  margin: 20px 0 0 0;
+}
+
+/* questions */
+.questions {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.questions .container .questions-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.questions .container .questions-inner .question {
+  margin: 10px 0;
+  text-align: justify;
+  border-bottom: 1px solid green;
+  color: green;
+}
+
+.questions .container .questions-inner .question p {
+  margin-bottom: 25px;
+}
+
+.questions .container .questions-inner .question p a {
+  color: green;
+}
+
+.questions .container .questions-inner .question p a:hover {
+  color: black;
+}
+
+/* search */
+.search {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.692)), to(rgba(22, 22, 22, 0.692))), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+  background: linear-gradient(rgba(22, 22, 22, 0.692), rgba(22, 22, 22, 0.692)), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+  padding: 30px;
+}
+
+.search .container .text {
+  text-align: center;
+}
+
+.search .container .text h2 {
+  color: white;
+}
+
+.search .container .text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search .container .text form .input-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+  width: 300px;
+}
+
+.search .container .text form .input-search .icon {
+  margin-right: 8px;
+}
+
+.search .container .text form .input-search input {
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 200px;
+  border: 0;
+  outline: none;
+}
+
+.search .container .text form .envoi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search .container .text form .envoi input {
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1.1rem;
+}
+
+.search .container .text form .envoi input:hover {
+  background-color: #31c031;
+}
+
+/* footer */
+footer {
+  background-color: green;
+}
+
+footer .container .footer-content .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .footer-content .link h2 {
+  color: white;
+  margin: 10px;
+}
+
+footer .container .footer-content .link .link-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .footer-content .link .link-content p {
+  margin: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .container .footer-content .link .link-content p a {
+  color: #ccc;
+}
+
+footer .container .footer-content .link .link-content p:hover a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+footer .container .footer-content .reseau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .footer-content .reseau .name a {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+
+footer .container .footer-content .reseau .reseau-sociaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin: 20px 0 30px 0;
+}
+
+footer .container .footer-content .reseau .reseau-sociaux .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: white;
+}
+
+footer .container .footer-content .reseau .reseau-sociaux .icon a {
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .container .footer-content .reseau .reseau-sociaux .icon a:hover {
+  color: green;
+}
+
+footer .container .footer-bottom {
+  color: green;
+  background-color: black;
+  padding: 10px;
+}
+
+footer .container .footer-bottom div {
+  text-align: center;
+}
+
+footer .container .footer-bottom div span {
+  font-weight: bolder;
+  color: #ccc;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  /* connexion css */
+  .connexion .container .connexion-iner .displaynone {
+    display: none;
+  }
+  /* espertist css */
+  .espertist .container .espertist-inner .text {
+    width: 50%;
+    text-align: center;
+  }
+  /* footer */
+  footer {
+    background-color: green;
+  }
+  footer .container .footer-content .link {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  footer .container .footer-bottom {
+    color: green;
+    background-color: black;
+    padding: 10px;
+  }
+  footer .container .footer-bottom div {
+    text-align: center;
+  }
+  footer .container .footer-bottom div span {
+    font-weight: bolder;
+    color: #ccc;
+  }
+  /* search */
+  .search {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.692)), to(rgba(22, 22, 22, 0.692))), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+    background: linear-gradient(rgba(22, 22, 22, 0.692), rgba(22, 22, 22, 0.692)), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+    padding: 30px;
+  }
+  .search .container .text {
+    text-align: center;
+  }
+  .search .container .text h2 {
+    color: white;
+  }
+  .search .container .text form .input-search {
+    width: 500px;
+  }
+  .search .container .text form .input-search input {
+    width: 400px;
+  }
+  .search .container .text form .envoi input {
+    padding: 10px 40px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  /* connexion css */
+  .connexion .container .connexion-iner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+  }
+  .connexion .container .connexion-iner .displaynone {
+    display: block;
+  }
+  .connexion .container .connexion-iner .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .connexion .container .connexion-iner .right img {
+    height: 500px;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 60px 0 60px 0;
+  }
+  .connexion .container .connexion-iner .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .connexion .container .connexion-iner .left h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -30px;
+  }
+  .connexion .container .connexion-iner .left p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #616161d8;
+    font-weight: 600;
+  }
+  .connexion .container .connexion-iner .left p span {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-right: 5px;
+  }
+  .connexion .container .connexion-iner .left p i {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    padding: 2px 0 0 0;
+  }
+  .connexion .container .connexion-iner .left p .fa-solid {
+    font-size: 8px;
+  }
+  .connexion .container .connexion-iner .left form .bolck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin: 0 0 20px 0;
+  }
+  .connexion .container .connexion-iner .left form .bolck label {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .connexion .container .connexion-iner .left form .bolck select {
+    padding: 10px;
+    font-weight: bolder;
+  }
+  .connexion .container .connexion-iner .left form .envoie {
+    text-align: center;
+  }
+  .connexion .container .connexion-iner .left form .envoie input {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 8px 50px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+  }
+  .connexion .container .connexion-iner .left form .connecter p {
+    text-align: center;
+    margin: 10px;
+  }
+  .connexion .container .connexion-iner .left form .connecter p a {
+    color: green;
+    font-weight: 600;
+  }
+  /* explain css */
+  .explain .container .explain-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  /* persentation css */
+  .persentation {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .persentation .container .persentation-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .persentation .container .persentation-inner .left h2 {
+    margin: 10px;
+  }
+  .persentation .container .persentation-inner .left p {
+    line-height: 1.5;
+    word-spacing: 5px;
+  }
+  .persentation .container .persentation-inner .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .persentation .container .persentation-inner .right img {
+    height: 400px;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 60px 0 60px 0;
+  }
+  /* gettinStarted */
+  .getting {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .getting .container .getting-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .getting .container .getting-inner .getting-card {
+    margin: 10px;
+    text-align: center;
+  }
+  .getting .container .getting-inner .getting-card .icon {
+    margin: 10px 0 20px 0;
+  }
+  .getting .container .getting-inner .getting-card .text {
+    margin-top: -15px;
+  }
+  .getting .container .getting-inner .getting-card:hover .icon {
+    color: green;
+  }
+  /* persentation-2 */
+  .persentation-2 {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .persentation-2 .container .persentation-2-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .persentation-2 .container .persentation-2-inner .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .persentation-2 .container .persentation-2-inner .right .text {
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 1.5;
+  }
+  /* questions */
+  .questions {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .questions .container .questions-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .questions .container .questions-inner .question {
+    margin: 10px 0;
+    text-align: justify;
+    border-bottom: 1px solid green;
+    color: green;
+  }
+  .questions .container .questions-inner .question p {
+    margin-bottom: 25px;
+  }
+  .questions .container .questions-inner .question p a {
+    color: green;
+  }
+  .questions .container .questions-inner .question p a:hover {
+    color: black;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  /* image */
+  .image {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.692)), to(rgba(22, 22, 22, 0.692))), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+    background: linear-gradient(rgba(22, 22, 22, 0.692), rgba(22, 22, 22, 0.692)), url("../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg") center center;
+    padding: 60px 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  /* connexion css */
+  .connexion .container .connexion-iner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+  .connexion .container .connexion-iner .displaynone {
+    display: block;
+  }
+  /* gettinStarted */
+  .getting {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .getting .container .getting-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  /* persentation-2 */
+  .persentation-2 {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .persentation-2 .container .persentation-2-inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .persentation-2 .container .persentation-2-inner .left img {
+    height: 400px;
+  }
+  .persentation-2 .container .persentation-2-inner .right {
+    padding: 0 20px 0 0px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
