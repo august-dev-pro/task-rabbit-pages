@@ -212,6 +212,9 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     .container{
+        .fa-solid{
+            font-size: 2.2rem;
+        }
         .explain-inner{
             display: flex;
             align-items: center;
@@ -280,9 +283,15 @@ body {
 .getting{
     padding: 15px;
     margin-bottom: 20px;
+
+    .fa-solid,
+    .fa{
+        font-size: 2.2rem;
+    }
+
     .container{
         text-align: center;
-
+        
         .getting-inner{
             display: flex;
             align-items: center;
@@ -315,6 +324,11 @@ body {
 .persentation-2{
     padding: 15px;
     margin-bottom: 20px;
+
+    .fa{
+        font-size: 2.8rem;
+    }
+
     .container{
         .persentation-2-inner{
             display: flex;
@@ -447,6 +461,12 @@ body {
 /* footer */
 footer{
     background-color: green;
+
+
+    .fa-brands{
+        font-size: 1.5rem;
+    }
+
     .container{
         .footer-content{
             .link{
