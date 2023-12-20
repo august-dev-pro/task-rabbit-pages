@@ -400,7 +400,9 @@ body {
 
 /* search */
 .search{
-    background:linear-gradient(rgba(22, 22, 22, 0.692), rgba(22, 22, 22, 0.692)) ,url('../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg') center center;
+    background:linear-gradient(rgba(22, 22, 22, 0.692), rgba(22, 22, 22, 0.692)) ,url('../images/group-61-f9c4ed29423ef98b38ccc784ddff3996.jpg') center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
     .container{
         .text{
@@ -547,18 +549,18 @@ footer{
                 }
             }
         }
-        .footer-bottom{
-            color: green;
-            background-color: black;
-            padding: 10px;
+    }
+    .footer-bottom{
+        color: green;
+        background-color: black;
+        padding: 10px;
 
-            div{
-                text-align: center;
+        div{
+            text-align: center;
 
-                span{
-                    font-weight: bolder;
-                    color: #ccc;
-                }
+            span{
+                font-weight: bolder;
+                color: #ccc;
             }
         }
     }
@@ -1002,4 +1004,6 @@ footer{
     .container {
       max-width: 1536px;
     }
+
+    
 }
