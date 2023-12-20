@@ -323,6 +323,10 @@ body {
   margin-bottom: 20px;
 }
 
+.getting .container {
+  text-align: center;
+}
+
 .getting .container .getting-inner {
   display: -webkit-box;
   display: -ms-flexbox;
